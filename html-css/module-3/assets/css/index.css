@@ -1,0 +1,115 @@
+* { 
+    padding: 0;
+    margin: 0%;
+}
+
+.header {
+
+}
+
+.content {
+
+}
+
+.navigation {
+    text-align: center;
+  text-decoration: none;
+  padding-top: 50px;
+
+}
+
+ .menu {
+  
+    
+ }
+
+.item {
+    display: inline-block;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 60px;
+
+    
+}
+
+.link {
+    margin-bottom: 10px;
+}
+
+.pull {
+    
+
+}
+
+
+.div2 {
+    display: inline-block;
+    text-align: left;
+    column-count: 2;
+    column-width: 370px;
+    margin-right: 145px;
+    margin-left: 145px;
+    
+   
+}
+
+a {
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-family: "Copperplate Gothic Light", fantasy; 
+    font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    color: gray;
+    text-decoration: none;
+    
+}
+
+p {
+    font-family: "microsoft yi baiti regular", fantasy; 
+    font-size: 20px;font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    color: gray; 
+}
+
+.photo {
+    font-family: "Copperplate Gothic Light", fantasy; 
+    font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    color: lightgray;
+}
+
+.endbutton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-color: black;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+    font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    color: gray;
+    margin-bottom: 70px;
+
+}
+
+.butt {
+    text-align: center;
+    margin-top: 55px;
+}
+
+section {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "microsoft yi baiti regular", fantasy; 
+    font-size:30px;font-style: normal; font-variant-caps: normal; font-weight: 600; line-height: 20px;
+    color: gray;
+}
+
+img {
+    margin-bottom: 10px;
+}
