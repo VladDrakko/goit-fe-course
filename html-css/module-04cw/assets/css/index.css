@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.header {
+    height : 80px;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    background: linear-gradient(to right, #93f9b9,#1d976c)
+}
+
+.logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.navigation {
+    float: left;
+}
+
+.social_info,
+.menu {
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu_item {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.menu_item:last-child {
+    margin-right: 0px;
+}
+
+.menu_item:hover {
+    color: red;
+}
+
+.social_info {
+    margin: 0;
+    list-style-type: none;
+    float: left;
+}
+
+.social_info_item {
+    float: left;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    margin-right: 15px;
+}
+
+.social_info_item:last-child {
+    margin-right: 0px;
+}
+
+.social_info_item:nth-child(odd) {
+    background-color: green;
+}
+.social_info_icon {}
+
+.user_info {
+    float: left;
+}
+
+.user_info_avatar {
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.user_info_name {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.sub_info {
+    float: right;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
